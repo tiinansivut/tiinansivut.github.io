@@ -2,7 +2,7 @@
 %btnextend {
 	display: inline-block;
 	border: 1px solid;
-	border-color: rgba($color_mercury,0.5) rgba($color_bon_jour,0.5) $color_mischka;
+	border-color: $orange;
 	border-radius: 3px;
 	text-decoration: none;
 	background: $darkgrey;
@@ -43,19 +43,19 @@
       }
       &:hover {
         background-color: $darkgrey;
-        color: $warning;
+        color: $orange;
       }
     }
     &.btn-danger {
-      background-color: $danger;
+      background-color: $darkgrey;
       color: $orange;
-      border-color: $danger;
+      border-color: $orange;
       &:visited {
         color: $darkgrey;
       }
       &:hover {
         background-color: $darkgrey;
-        color: $danger;
+        color: $warning;
       }
     }
     &.btn-info {
