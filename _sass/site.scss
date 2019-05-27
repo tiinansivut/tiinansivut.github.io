@@ -15,13 +15,13 @@ body {
 	@extend %extend1;
 	font-family: $font1;
 	@include font-rem($doc-font-size);
-	color: $color_tuatara;
-	background-color: $bodycolor;
+	color: $orange;
+	background-color: $darkgrey;
 	background-position: center center;
 	background-attachment: fixed;
 	@media #{$small} {
 	    background-image: none !important;
-		background: $white;
+		background: $darkgrey;
 	}
 }
 * {
@@ -39,7 +39,7 @@ body {
 	width: 100%;
 	min-height: 300px;
 	text-align: left;
-	color: $white;
+	color: $darkgrey;
 	@media #{$small} {
 		display: block !important;
 	}
@@ -75,7 +75,7 @@ body {
 	padding-right: 15px;
 	padding-left: 15px;
 	@include center-block();
-	background-color: $white;
+	background-color: $darkgrey;
 	color: $color_shark;
 	z-index: 1;
 	border-radius: 3px;
