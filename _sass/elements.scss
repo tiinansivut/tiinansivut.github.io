@@ -9,7 +9,7 @@
 	color: $orange;
 	&:hover {
 		box-shadow: 0 0 1px 0 rgba($color_shark,0.5);
-		color: $red;
+		color: $warning;
 	}
 }
 .social-btn {
@@ -31,7 +31,7 @@
       }
       &:hover {
         background-color: $darkgrey;
-        color: $success;
+        color: $danger;
       }
     }
     &.btn-warning {
@@ -67,7 +67,7 @@
       }
       &:hover {
         background-color: $darkgrey;
-        color: $info;
+        color: $warning;
       }
     }
 }
