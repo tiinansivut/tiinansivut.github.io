@@ -79,7 +79,7 @@ body {
 	color: $orange;
 	z-index: 1;
 	border-radius: 3px;
-	border: 1px bold $orange;
+	border: 1px solid $orange;
 	box-shadow: 0;
 	@include transition(.5s);
 	@media #{$small} {

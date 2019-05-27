@@ -9,7 +9,7 @@
 	color: $orange;
 	&:hover {
 		box-shadow: 0 0 1px 0 rgba($color_shark,0.5);
-		color: $warning;
+		color: $brighterorange;
 	}
 }
 .social-btn {
@@ -31,19 +31,19 @@
       }
       &:hover {
         background-color: $darkgrey;
-        color: $danger;
+        color: $brighterorange;
       }
     }
     &.btn-warning {
-      background-color: $warning;
+      background-color: $orange;
       color: $orange;
-      border-color: $warning;
+      border-color: $orange;
       &:visited {
         color: $orange;
       }
       &:hover {
         background-color: $darkgrey;
-        color: $orange;
+        color: $brighterorange;
       }
     }
     &.btn-danger {
@@ -67,7 +67,7 @@
       }
       &:hover {
         background-color: $darkgrey;
-        color: $warning;
+        color: $brighterorange;
       }
     }
 }
@@ -107,7 +107,7 @@ hr {
 // images and figures
 img {
     display: block;
-	max-width: 100%;
+  	max-width: 100%;
     width: auto;
     height: auto;
     vertical-align: middle;
