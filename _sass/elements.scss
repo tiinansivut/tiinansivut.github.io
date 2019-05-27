@@ -36,10 +36,10 @@
     }
     &.btn-warning {
       background-color: $warning;
-      color: $white;
+      color: $orange;
       border-color: $warning;
       &:visited {
-        color: $white;
+        color: $orange;
       }
       &:hover {
         background-color: $darkgrey;
@@ -48,7 +48,7 @@
     }
     &.btn-danger {
       background-color: $danger;
-      color: $white;
+      color: $orange;
       border-color: $danger;
       &:visited {
         color: $darkgrey;
@@ -60,10 +60,10 @@
     }
     &.btn-info {
       background-color: $info;
-      color: $white;
+      color: $orange;
       border-color: $info;
       &:visited {
-        color: $white;
+        color: $orange;
       }
       &:hover {
         background-color: $darkgrey;
