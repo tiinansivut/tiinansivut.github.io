@@ -23,14 +23,14 @@
 	margin: 4px auto;
 	@extend %btnextend;
 	&.btn-success {
-      background-color: $success;
-      color: $white;
+      background-color: $darkgrey;
+      color: $orange;
       border-color: $success;
       &:visited {
-        color: $white;
+        color: $orange;
       }
       &:hover {
-        background-color: $white;
+        background-color: $darkgrey;
         color: $success;
       }
     }
@@ -42,7 +42,7 @@
         color: $white;
       }
       &:hover {
-        background-color: $white;
+        background-color: $darkgrey;
         color: $warning;
       }
     }
@@ -51,10 +51,10 @@
       color: $white;
       border-color: $danger;
       &:visited {
-        color: $white;
+        color: $darkgrey;
       }
       &:hover {
-        background-color: $white;
+        background-color: $darkgrey;
         color: $danger;
       }
     }
@@ -66,7 +66,7 @@
         color: $white;
       }
       &:hover {
-        background-color: $white;
+        background-color: $darkgrey;
         color: $info;
       }
     }
@@ -119,12 +119,12 @@ img {
 }
 .img-circle {
 	border-radius: 50%;
-	border: 3px solid $white;
+	border: 3px solid $orange;
 	height: 150px;
 	width: 150px;
 }
 .author-photo {
-    background-color: $white;
+    background-color: $darkgrey;
 }
 .image-right {
     float: right;
