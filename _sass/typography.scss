@@ -90,12 +90,12 @@ figcaption {
 // links
 a {
   transition: color .4s;
-  color: $color_shark;
+  color: $orange;
   &:link {
-  	color: $color_shark;
+  	color: $orange;
   }
   &:visited {
-  	color: $color_tuatara;
+  	color: $orange;
   }
   &:hover {
   	color: $red;
